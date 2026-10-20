@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Монограмма АС">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c6f04e"/><stop offset="1" stop-color="#5fa81a"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="40"/></filter></defs>
+<rect width="400" height="400" rx="56" fill="#101114"/><circle cx="90" cy="330" r="140" fill="#c6f04e" opacity=".3" filter="url(#b)"/>
+<path d="M0 400 L130 210 L200 300 L260 230 L400 400 Z" fill="#c6f04e" opacity=".16"/>
+<text x="200" y="250" text-anchor="middle" font-family="Onest, Inter, 'Helvetica Neue', Arial, sans-serif" font-size="168" font-weight="700" letter-spacing="-8" fill="url(#a)">АС</text></svg>
