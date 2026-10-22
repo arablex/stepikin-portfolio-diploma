@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Обложка проекта Driftpaint">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1030"/><stop offset="1" stop-color="#5a2a6b"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<filter id="blur2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></linearGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<circle cx="180" cy="640" r="260" fill="#ffb36b" fill-opacity="0.35" filter="url(#blur)"/>
+<circle cx="1050" cy="120" r="220" fill="#ffb36b" fill-opacity=".25" filter="url(#blur)"/>
+<path d="M420 120 C 600 30, 760 230, 960 90 S 1150 180, 1250 100" fill="none" stroke="#ffb36b" stroke-opacity="0.55" stroke-width="26" stroke-linecap="round"/><path d="M420 172 C 600 82, 760 282, 960 142 S 1150 232, 1250 152" fill="none" stroke="#ff6f91" stroke-opacity="0.52" stroke-width="24" stroke-linecap="round"/><path d="M420 224 C 600 134, 760 334, 960 194 S 1150 284, 1250 204" fill="none" stroke="#b388ff" stroke-opacity="0.49000000000000005" stroke-width="22" stroke-linecap="round"/><path d="M420 276 C 600 186, 760 386, 960 246 S 1150 336, 1250 256" fill="none" stroke="#6bd5ff" stroke-opacity="0.4600000000000001" stroke-width="20" stroke-linecap="round"/><path d="M420 328 C 600 238, 760 438, 960 298 S 1150 388, 1250 308" fill="none" stroke="#ffb36b" stroke-opacity="0.43000000000000005" stroke-width="18" stroke-linecap="round"/><path d="M420 380 C 600 290, 760 490, 960 350 S 1150 440, 1250 360" fill="none" stroke="#ff6f91" stroke-opacity="0.4" stroke-width="16" stroke-linecap="round"/><path d="M420 432 C 600 342, 760 542, 960 402 S 1150 492, 1250 412" fill="none" stroke="#b388ff" stroke-opacity="0.37000000000000005" stroke-width="14" stroke-linecap="round"/><path d="M420 484 C 600 394, 760 594, 960 454 S 1150 544, 1250 464" fill="none" stroke="#6bd5ff" stroke-opacity="0.3400000000000001" stroke-width="12" stroke-linecap="round"/><path d="M420 536 C 600 446, 760 646, 960 506 S 1150 596, 1250 516" fill="none" stroke="#ffb36b" stroke-opacity="0.31000000000000005" stroke-width="10" stroke-linecap="round"/>
+<rect width="1200" height="750" fill="url(#fade)" opacity="0.5"/>
+<g font-family="Onest, Inter, 'Helvetica Neue', Arial, sans-serif">
+<text x="72" y="96" font-size="26" font-weight="600" letter-spacing="3" fill="#ffffffb0">THREE.JS</text>
+<text x="72" y="590" font-size="78" font-weight="700" letter-spacing="-2" fill="#ffffff">Driftpaint</text>
+<text x="76" y="650" font-size="34" font-weight="400" fill="#ffffffb0">Живопись светом</text>
+<rect x="76" y="684" width="72" height="6" rx="3" fill="#ffb36b"/>
+</g></svg>
