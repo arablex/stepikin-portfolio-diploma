@@ -67,4 +67,4 @@ portfolio/
 ## Автор
 
 Алексей Степикин — продуктовый дизайнер, Head of Design, фронтенд-разработчик. Алматы.
-Email: xqrmedia@gmail.com · Telegram: [@uxuialex](https://t.me/uxuialex) · [stepikin.com](https://stepikin.com)
+Email: aleksey.stepikin@gmail.com · Telegram: [@uxuialex](https://t.me/uxuialex) · [stepikin.com](https://stepikin.com)

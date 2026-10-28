@@ -24,5 +24,5 @@ window.APP_CONFIG = {
     timeZone: 'Asia/Almaty'
   },
   // Почта для запасного варианта (mailto), если EmailJS ещё не настроен
-  fallbackEmail: 'xqrmedia@gmail.com'
+  fallbackEmail: 'aleksey.stepikin@gmail.com'
 };
