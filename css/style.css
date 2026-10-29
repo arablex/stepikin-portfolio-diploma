@@ -267,7 +267,7 @@ code { font-family: var(--mono); font-size: .9em; background: var(--surface-2); 
 .code-card__bar span { width: 11px; height: 11px; border-radius: 50%; background: #ff5f57; }
 .code-card__bar span:nth-child(2) { background: #febc2e; }
 .code-card__bar span:nth-child(3) { background: #28c840; }
-.code-card__bar figcaption { margin-left: 10px; font: .8rem var(--mono); color: var(--muted); }
+.code-card__bar .code-card__name { font-style: normal; margin-left: 10px; font: .8rem var(--mono); color: var(--muted); }
 .code-card__body { margin: 0; padding: 22px; font: clamp(.78rem, .5vw + .62rem, .92rem)/1.75 var(--mono); overflow-x: auto; white-space: pre; }
 .tk-k { color: #c678dd; } .tk-v { color: var(--accent-text); } .tk-p { color: #61afef; }
 .tk-s { color: #98c379; } .tk-n { color: #d19a66; } .tk-c { color: var(--muted); }
@@ -562,3 +562,5 @@ body.is-locked { overflow: hidden; }
   .modal { width: 100%; max-height: 100dvh; border-radius: 20px 20px 0 0; margin-bottom: 0; }
   .modal__panel { max-height: 100dvh; }
 }
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

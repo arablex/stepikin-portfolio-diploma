@@ -96,8 +96,9 @@
             <figure class="code-card" aria-label="Краткая визитка в виде кода">
               <div class="code-card__bar">
                 <span></span><span></span><span></span>
-                <figcaption>alexey.js</figcaption>
+                <em class="code-card__name">alexey.js</em>
               </div>
+              <figcaption class="visually-hidden">Файл alexey.js: краткая визитка в виде кода</figcaption>
 <pre class="code-card__body"><code><span class="tk-k">const</span> <span class="tk-v">alexey</span> = {
   <span class="tk-p">role</span>: <span class="tk-s">"Head of Design → Frontend"</span>,
   <span class="tk-p">city</span>: <span class="tk-s">"Алматы"</span>,
@@ -249,7 +250,7 @@
           <p class="eyebrow"><span>03</span> Отзывы</p>
           <h2 class="section__title" id="reviews-title">Что говорят коллеги</h2>
         </header>
-        <div class="slider slider--quotes reveal" id="reviews-slider" aria-roledescription="carousel" aria-label="Отзывы коллег"></div>
+        <div class="slider slider--quotes reveal" id="reviews-slider" role="region" aria-roledescription="carousel" aria-label="Отзывы коллег"></div>
       </div>
     </section>
 
